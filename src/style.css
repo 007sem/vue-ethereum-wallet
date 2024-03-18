@@ -1,0 +1,60 @@
+:root {
+  font-family: "Rubik", "LXGW WenKai Lite", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: calc(13px + 0.33vw);
+  -webkit-font-smoothing: antialiased;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #03001C;
+  --color: #03001C;
+  --color-reverse:#fff;
+  --main-color: #1D5D9B;
+  --sec-color: #2c94b3;
+  --background-color: #fafafa;
+  --border-color: #ececec;
+  --desc-color: #8e8e8e;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 300ms cubic-bezier(0, 0.8, 0.13, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+}
+
+
+.message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 9999;
+  transform: translateZ(9999px);
+  padding-top: 28px;
+  transition: top 0.4s ease;
+}
